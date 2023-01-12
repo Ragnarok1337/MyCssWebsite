@@ -1,0 +1,94 @@
+/*** ELEMENT MODIFIERS ***/
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin:0 auto 0 auto;
+    padding-top:200px;
+    font-family: 'Sacramento', cursive;
+    font-size:1000% /*16px = 1em = 100%  */
+}
+
+h2{
+    margin-top:0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:3em;
+}
+
+h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p{
+    font-size:1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width:20px;
+    border-color:#439A97;
+    opacity:45%;
+    width:70%;
+}
+
+/*** CLASS MODIFIERS ***/
+.headerText{
+    font-size:25px;
+}
+
+.topContainer{
+    background-color: #CBEDD5;
+    position:relative;
+}
+
+.middleContainer{
+    background-color: #97DECE;
+}
+
+.bottomContainer{
+   background-color: #439A97;
+   padding-top:20px;
+}
+
+.topCloud{
+   position:absolute;
+   right:300px;
+   top:50px;
+}
+
+.bottomCloud{
+    position:absolute; 
+    left:300px;
+    bottom:300px;
+}
+
+.computerImage{
+    border-radius: 100%;
+}
+
+.paintImage{
+    height:250px;
+    width:250px;
+}
+
+.footer-link{
+    padding:20px;
+}
+
+.footerTag{
+    font-size:1em;
+    padding-bottom: 60px;
+}
+
+.contact-me{
+    padding:25px;
+}
+
+
